@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishes</title>
+</head>
+<body>
+    <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hepi Bedday</title>
+  <link rel="icon" type="image/x-icon" href="android-chrome-192x192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+      background: #141414; /* Dark background for Netflix theme */
+      color: #e5e5e5; /* Light text color */
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .card {
+      background: #333; /* Dark card background */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Darker shadow */
+      width: 80vw;
+      max-width: 600px;
+      padding: 20px;
+      position: relative;
+    }
+    
+    .text {
+      text-align: center;
+      color: #e5e5e5;
+      padding: 0 20px;
+    }
+    
+    .text img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 1em;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .playlist {
+      color: #e5e5e5;
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #e50914; /* Netflix red */
+      border-radius: 50px;
+      border: 2px solid #e50914;
+      font-weight: bold;
+      transition: .3s;
+    }
+    
+    .playlist:hover {
+      background: #b81d1d;
+    }
+    
+    .muted {
+      color: #b3b3b3;
+    }
+    
+    audio {
+      display: none;
+      margin: 20px auto;
+    }
+
+    .content {
+      display: none;
+    }
+
+    .read-more {
+      color: inherit;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    
+    .read-less {
+      color: inherit;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.7em;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 0.8em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      .read-more {
+        font-size: 0.8em;
+        color: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .read-less {
+        font-size: 0.8em;
+        color: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .playlist {
+        color: #e5e5e5;
+        text-decoration: none;
+        padding: 5px 20px;
+        background: #e50914; /* Netflix red */
+        border-radius: 50px;
+        border: 2px solid #e50914;
+        font-weight: bold;
+        transition: .2s;
+        font-size: 0.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="text">
+        <tr>
+            <td><img src="photo1.jpg" alt="" align="left" style="width: 30%;" /></td>
+            <td><img src="birthday.gif" alt="" align="center" style="width: 30%;" /></td>
+            <td><img src="photo2.jpg" alt="" align="right" style="width: 30%;" /></td>
+        </tr>   
+      <h1>Heloowww Wawaa!</h1>
+      <p>happy 16th birthday kaka wawa, semoga di hari yg istimewa ini bakal dipenuhi dengan kebahagiaan, canda tawa, dan momen-momen tak terlupakan. selamat memasuki usia baru, semoga setiap langkah wawa dihiasi dengan kesuksesan, keberhasilan, dan kebahagiaan yg tak terhingga. tetaplah menjadi pribadi yg penuh semangat, gigih dalam mengejar impian, dan selalu berbagi kebaikan kepada orang di sekitar</p>
+      <span class="read-more" onclick="toggleReadMore()">Read More</span>
+      <div class="content" style="display: none;">
+        <p>di hari ulang tahun lu ini adalah saat yg tepat buat merayakan bukan buat satu tahun yg telah berlalu, tapi buat diri lu yg udh jadi seseorang yg terus bertumbuh, belajar, dan menyebarkan kebahagiaan kepada orang-orang di sekitar, tapi tabungan gw ga bahagia. dan di inget juga kalo lu bukan cuma tumbuh dewasa, u r becoming wiser, more resilient, and even more incredible with each passing day. jadi jalanin perjalanan hidup wawa kedepan dengan semangat, and know that ur friends and family r cheering u on every step of the way.</p>
+        <p>may this year mark the beginning of a new chapter filled with love, laughter, and endless possibilities. this birthday is the start of a new and extraordinary adventure in ur life. so raih semua impian marva, and make every moment count! here's to u and the wonderful soul that u r! wishing nothing but love and happiness on ur special day.</p>
+        <p>pesen dari gw cepet cepet cari pacar dahh, biar pas lu sweet seventeen ada orng yg lebih spesial buat ngucapin lu, sama biar lu ga gw larang larang terus, males kan lu kalo gw larang larang terus, tapi pas nyari jodoh jangan sampe kejadian kejadian sebelumnya keulang, aku ga mau kamu sakit hati lagii, intinya cari yg terbaik buat lu, cari yg bisa menuhin ekspetasi lu, cari yg bisa nerima segala kekurangan lu, cari yg bisa diajak buat grow up bareng, cari yg mau ngedengerin semua cerita lu, cari yg bisa ngertiin lu, dan juga cari yg bisa ngesupport wawa.</p>
+        <p>intinya selamat merayakan hari yg istimewa ini dengan penuh kasih sayang dan kenangan indah bersama keluarga dan temen-temen terdekat marva. semoga tahun ini membawa kebahagiaan, keberhasilan, dan semua hal baik yg wawa harapkan. sekali lagi selamat ulang tahun yg ke-16 buat marva anindya daniswara semoga tahun ini menjadi tahun yg penuh dengan kebahagiaan dan pencapaian baru buat marva.</p>
+        <p>gw langitkan semua doa terbaik gw buat lu. dan banyak kalimat semoga yg mau gw sampaikan, semoga banyak kebahagiaan yg kembali di hari ini, semoga semua harapan yg lu inginkan akan menjadi sebuah kenyataan, semoga bakal ada banyak kebahagiaan yg dateng ke dalam hiduplu, semoga hari-hari lu bakal jadi jauh lebih menyenangkan sesuai sama apa yg lu harapkan, semoga hal-hal yg buat lu hancur menjadi alasan lu buat bertumbuh, semoga dunia selalu menjaga lu dimanapun lu berada, semoga hari-hari lu selalu diiringi cinta yg ga pernah ada batasnya, dan semoga senyum kedua orang tua dan adik kaka lu yg selalu lu usahakan akan terlaksana hari ini.</p>
+        <p>teruslah menjadi perempuan kuat yg gw kenal, dan yg ga kenal takut, JANGAN MALES BELAJAR!!!, dan teruslah menjadi nahkoda bagi dirilu sendiri, yg menentukan arah, mennetukan tujuan, dan bertanggung jawab atas arah dan tujuan yg lu pilih, im proud to know someone like u, even sometimes we argue over small things, but ure still my friend, and i value the friendship that we have, walaupun kadang sikap lu kaya tai :D, deh ah cape bikin long teks buat lu terus. hbd deh buat lu.</p>
+        <p><span class="read-less" onclick="toggleReadMore()" style="display: none;">Read Less</span></p>
+      </div>
+      <p class="muted">- Ur Friend <3 -</p>
+      <audio controls autoplay loop>
+        <source src="brthday.mp3" type="audio/ogg">
+        <source src="brthday.mpeg" type="audio/mpeg">
+      </audio>
+      <a href="#" onclick="window.close();" class="playlist">Go Back</a>
+    </div>
+  </div>
+</body>
+</html>
+
+<script>
+    const audio = document.querySelector('audio');
+    const body = document.body;
+
+    
+    audio.addEventListener('play', () => {
+        body.classList.add('play-music');
+    });
+
+    audio.addEventListener('pause', () => {
+        body.classList.remove('play-music');
+    });
+
+    function toggleReadMore() {
+        var content = document.querySelector('.content');
+        var readMore = document.querySelector('.read-more');
+        var readLess = document.querySelector('.read-less');
+
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            readMore.style.display = "none";
+            readLess.style.display = "inline";
+        } else {
+            content.style.display = "none";
+            readMore.style.display = "inline";
+            readLess.style.display = "none";
+        }
+    }
+
+</script>
