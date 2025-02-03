@@ -15,12 +15,12 @@
     padding: 0 20px;
     position: relative;
     transition: opacity 1s ease;
-     background: url('background landing page.jpg') no-repeat center center/cover;
+    background: url('/kue/thumbnail\ hero\ 1.jpg') no-repeat center center/cover ;
 }
 
 .body {
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .cake {
@@ -33,7 +33,7 @@
     margin-left: -125px;
 }
 .text1{
-    color: #333;
+    color: #000000;
     font-size: 18px;
     text-align: center;
     position:relative; top:-200px; left:0px; margin-left:-190px; margin-right:-190px;
@@ -51,6 +51,15 @@
     left:5px;
     padding: 0px 200px;
 }
+
+.text1, .text2 {
+    text-shadow: 
+        -1px -1px 1px white,  
+        1px -1px 1px white,  
+        -1px 1px 1px white,  
+        1px 1px 1px white; 
+}
+
 .plate {
     width: 270px;
     height: 110px;
