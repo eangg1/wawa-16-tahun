@@ -15,7 +15,7 @@
     padding: 0 20px;
     position: relative;
     transition: opacity 1s ease;
-    background: url('/thumbnail hero 1.jpg') no-repeat center center/cover ;
+    background: url('thumbnail hero 1.jpg') no-repeat center center/cover ;
 }
 
 .body {
