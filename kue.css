@@ -15,14 +15,20 @@
     padding: 0 20px;
     position: relative;
     transition: opacity 1s ease;
-    background: url('thumbnail\ hero\ 1.jpg') no-repeat center center/cover ;
+    background: url('thumbnail\ hero\ 1.jpg') no-repeat center center/cover;
     background-color: #ff7b7b;
+    overflow: hidden;
 }
 
 .body {
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Menghilangkan scroll */
+    height: 100%; /* Pastikan elemen memenuhi tinggi layar */
+    width: 100%;
 }
 .cake {
     position: absolute;
